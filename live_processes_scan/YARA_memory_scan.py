@@ -3,7 +3,7 @@ import subprocess
 
 # Path to your Yara executable and rules file
 yara_executable = "yara64.exe"  # Update this path
-yara_rules = "help.yar"          # Update this path
+yara_rules = "example.yar"          # Update this path
 
 # Function to scan a process with Yara
 def scan_process(pid):
